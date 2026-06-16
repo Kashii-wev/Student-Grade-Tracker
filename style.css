@@ -1,0 +1,138 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("img/laptop3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow-x: hidden;
+}
+
+h1 {
+    background-color: rgb(7, 7, 42);
+    height: 85px;
+    padding-left: 45rem;
+    padding-top: 8px;
+    font-size: 50px;
+}
+
+.list {
+    margin-left: 25rem;
+    margin-top: 15rem;
+    font-size: 22px;
+    width: 25rem;
+    height: 21rem;
+    background-color: rgb(43, 43, 65);
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+
+#addstu {
+    position: absolute;
+    top: 23rem;
+    left: 27rem;
+    font-size: 1.5rem;
+}
+
+input {
+    width: 20rem;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 2px solid rgb(119, 112, 181);
+}
+
+#container {
+    position: absolute;
+    top: 38rem;
+    left: 27rem;
+}
+
+#btn {
+    font-size: 15px;
+    border-radius: 10px;
+    height: 40px;
+    width: 20rem;
+
+}
+
+#tb {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+table,
+th,
+tr {
+    border: 1px solid white;
+    /* position: sticky; */
+    top: 0%;
+    z-index: 10;
+    border: 1px solid white;
+}
+
+#tr {
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+#table {
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 30px;
+    border: 1px solid white;
+}
+
+#container2 {
+    position: absolute;
+    top: 18rem;
+    left: 70rem;
+    width: 25rem;
+    min-height: 25rem;
+    background-color: rgb(43, 43, 65);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#stu {
+    margin-top: 2rem;
+    margin-left: 0;
+    font-size: 18px;
+}
+
+#topscore {
+    margin-left: 0;
+    font-size: 1.3rem;
+}
+
+#tb::-webkit-scrollbar {
+    width: 3px;
+}
+
+#tb::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: white;
+}
+
+#clear button {
+    width: 130px;
+    height: 50px;
+    margin-left: 79rem;
+    margin-top: 68px;
+    background-color: rgb(43, 43, 65);
+    color: white;
+    border-radius: 5px;
+}

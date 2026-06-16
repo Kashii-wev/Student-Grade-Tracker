@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>Student Grade Tracker</h1>
+        <br>
+        <h2 id="addstu">Add Student</h2>
+        <div class="list">
+            <label>Student Name</label>
+            <br>
+            <input type="name" id="name" placeholder="Enter the name">
+            <br>
+            <br>
+            <label>Student Marks</label>
+            <br>
+            <input type="number" id="marks" placeholder="Enter the marks(0-100)">
+        </div>
+
+        <br>
+        <br>
+        <div id="container">
+            <button id="btn" onclick="addstudent()">Add Student</button>
+        </div>
+
+        <br>
+
+    </div>
+    <!-- Output -->
+
+    <div id="container2">
+        <div id="tb">
+            <table id="table">
+                <thead id="thead">
+                    <tr id="tr">
+                        <th>Name</th>
+                        <th>Marks</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+        <br>
+
+        <div id="stu">
+            <h3 id="avg">Average marks </h3>
+            <br>
+        </div>
+
+        <div id="stu1">
+            <h3 id="topscore">Top Score </h3>
+        </div>
+    </div>
+
+    <div id="clear">
+        <button onclick="clearAll()">Clear All data</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
